@@ -1,0 +1,315 @@
+/* Overview.css */
+.overview-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    position: relative; /* For Buy Now button positioning */
+  }
+  
+  /* Project Overview */
+  .project-overview {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .overview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .overview-title {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .overview-menu {
+    color: #777;
+    cursor: pointer;
+  }
+  
+  .overview-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .overview-item {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .item-title {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .item-value {
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .add-project-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .able-pro-info {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .able-pro-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+  }
+  
+  .able-pro-title {
+      font-size: 1.2em;
+      color: #333;
+  }
+  
+  .able-pro-handle {
+      color: #777;
+  }
+  
+  .add-able-button {
+      color: #3498db;
+      font-size: 1.5em;
+      cursor: pointer;
+  }
+  /* Transactions */
+  
+  .transactions-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .transactions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .transactions-title {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .transactions-menu {
+    color: #777;
+    cursor: pointer;
+  }
+  
+  .transactions-tabs {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .tab {
+    background-color: transparent;
+    border: none;
+    color: #777;
+    padding: 8px 16px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+  }
+  
+  .transaction-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .transaction-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #555;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .transaction-details {
+    flex-grow: 1;
+  }
+  
+  .transaction-name {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .transaction-code {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .transaction-amount {
+    font-size: 1.1em;
+    color: #333;
+    text-align: right;
+  }
+  
+  .transaction-change {
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .transaction-change.up {
+    color: #2ecc71;
+  }
+  
+  .transaction-change.down {
+    color: #e74c3c;
+  }
+  
+  .transaction-actions {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .view-history-button {
+    background-color: #fff;
+    border: 1px solid #3498db;
+    color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .create-transaction-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  /* Total Income */
+  .total-income-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .total-income-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .total-income-title {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .total-income-menu {
+    color: #777;
+    cursor: pointer;
+  }
+  
+  .doughnut-chart-container {
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .doughnut-chart-container canvas {
+      margin: auto;
+      display: block;
+  }
+  
+  .total-income-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .total-income-item {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .item-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+  }
+  
+  .item-dot-1 {
+    background-color: #9cb4e7;
+  }
+  
+  .item-dot-2 {
+    background-color: #f9a825;
+  }
+  
+  .item-dot-3 {
+    background-color: #2e7d32;
+  }
+  
+  .item-dot-4 {
+      background-color: #9cb4e7;
+  }
+  
+  .item-value {
+    margin-left: auto;
+  }
+  
+  /* Buy Now Button */
+  .buy-now-float-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
